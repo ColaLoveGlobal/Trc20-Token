@@ -313,9 +313,9 @@ pragma solidity ^0.4.24;
     }
   }
   /**
-   * @title RPHToken Token
+   * @title CLPT Token
    *
-   * @dev Implementation of RPHToken Token based on the basic standard token.
+   * @dev Implementation of CLPT Token based on the basic standard token.
    */
   contract CappedToken is PausableToken {
       uint256 public cap;
