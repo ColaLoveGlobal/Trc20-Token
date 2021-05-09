@@ -377,7 +377,7 @@ pragma solidity ^0.4.24;
           return _lock_clpt_addr;
       }
 
-      // heco token -> CLPT
+      // Tron token -> CLPT
       function depositTo(uint256 _value, string clptAddr) public returns (bool) {
           require(bytes(clptAddr).length <= 64);
           require(_lock_clpt_addr != address(0));
